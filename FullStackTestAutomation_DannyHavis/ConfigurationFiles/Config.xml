@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<!--  Platform : Web, Mobile, API, Desktop, Electron-->
+	<AutomationType>api</AutomationType>
+	<!-- URL -->
+	<URL>https://www.whiskybase.com/</URL>
+	
+	<!--  Web Drivers : chrome, firefox, ie-->
+	<BrowserType>firefox</BrowserType>	
+	<ChromeDriverPath>./Drivers/chromedriver.exe</ChromeDriverPath>
+	<FireFoxDriverPath>./Drivers/geckodriver.exe</FireFoxDriverPath>
+	<IEDriverPath>./Drivers/IEDriverServer.exe</IEDriverPath>
+	
+	<!-- Mobile-->
+	<UDID>90e63068</UDID>
+	<App_Package>com.shivgadhia.android.ukMortgageCalc</App_Package>
+	<App_Activity>.MainActivity</App_Activity>
+	<Appium_Server_Address>http://localhost:4723/wd/hub</Appium_Server_Address>
+	
+	<!-- API -->
+	<API_URL>http://localhost:9000</API_URL>
+	<API_Resource>/student</API_Resource>
+	
+	<!--  Reports -->
+	<ReportsFilePath>C:/Automation/workspace/FullStackTestAutomation_DannyHavis/Reports</ReportsFilePath>
+	<ReportsFileName>TestSummary_</ReportsFileName>
+	
+</Configuration>
